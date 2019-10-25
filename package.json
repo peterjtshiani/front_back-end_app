@@ -1,0 +1,36 @@
+{
+
+  "name": "itunes-search",
+  "version": "1.0.0",
+  "description": "This a project with back and front end",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm start\" \"npm run frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterjtshiani/front_back-end_app.git"
+  },
+  "author": "Imraan Meyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterjtshiani/front_back-end_app/issues"
+  },
+  "homepage": "https://github.com/peterjtshiani/front_back-end_app#readme",
+  "dependencies": {
+    "concurrently": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.21.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^1.19.4",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  }
+}
